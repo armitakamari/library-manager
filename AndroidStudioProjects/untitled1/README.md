@@ -20,8 +20,8 @@ The repository is organized to maintain a clear separation of concerns:
 ## Development Status
 
 This project successfully implements the business logic for both the frontend and backend independently. 
+Both frontend and backend modules are implemented in a modular structure.
 
-*Note: The project was structured for real-time communication between the client and server using Sockets. While the individual modules are fully functional and tested, the final socket-based integration layer is pending further implementation due to project constraints.*
 
 ## How to Run
 

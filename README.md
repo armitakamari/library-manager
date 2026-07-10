@@ -1,33 +1,25 @@
 # Online Library Management System
 
-This project was developed as a final assignment for the **Advanced Programming** course. It implements a client-server architecture for an online library, featuring a modular separation between the user interface and the server-side logic.
-
-## Project Overview
-
-The system is designed in two main phases:
-
-*   **Frontend (Client):** Built with **Flutter**, providing a responsive and user-friendly interface for browsing and interacting with the library catalog.
-*   **Backend (Server):** Built with **Dart**, handling the core application logic, data management, and request processing.
+Welcome to the repository for my Advanced Programming course project. This project implements a modular client-server architecture for an online library management system.
 
 ## Project Structure
 
-The repository is organized to maintain a clear separation of concerns:
+This repository is organized into two distinct components:
 
-- `/lib`: Contains the complete Flutter source code for the frontend application.
-- `Second.dart`: Contains the primary backend implementation and server logic.
-- `/android`, `/ios`, `/web`, `/windows`, `/macos`, `/linux`: Configuration files for cross-platform deployment.
+- **[Frontend (Flutter)](AndroidStudioProjects/untitled1/):** Contains the complete cross-platform user interface application.
+- **[Backend (Dart)](backend.rar):** Contains the server-side logic. 
+  *(Please extract `backend.rar` to access the backend source code).*
 
 ## Development Status
 
-This project successfully implements the business logic for both the frontend and backend independently. 
-Both frontend and backend modules are implemented in a modular structure.
+The system follows a client-server architecture where both modules were implemented independently:
+- The **Frontend** handles the user interface and client-side interactions.
+- The **Backend** is designed to manage server-side operations and data processing.
 
+## How to Get Started
 
-## How to Run
-
-To run the components locally, ensure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
-
-### Run the Frontend:
-Navigate to the root directory and run:
+### Running the Frontend
+1. Navigate to the frontend directory:
 ```bash
-flutter run
+   cd AndroidStudioProjects/untitled1
+   

@@ -1,16 +1,33 @@
-# untitled1
+# Online Library Management System
 
-A new Flutter project.
+This project was developed as a final assignment for the **Advanced Programming** course. It implements a client-server architecture for an online library, featuring a modular separation between the user interface and the server-side logic.
 
-## Getting Started
+## Project Overview
 
-This project is a starting point for a Flutter application.
+The system is designed in two main phases:
 
-A few resources to get you started if this is your first Flutter project:
+*   **Frontend (Client):** Built with **Flutter**, providing a responsive and user-friendly interface for browsing and interacting with the library catalog.
+*   **Backend (Server):** Built with **Dart**, handling the core application logic, data management, and request processing.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The repository is organized to maintain a clear separation of concerns:
+
+- `/lib`: Contains the complete Flutter source code for the frontend application.
+- `Second.dart`: Contains the primary backend implementation and server logic.
+- `/android`, `/ios`, `/web`, `/windows`, `/macos`, `/linux`: Configuration files for cross-platform deployment.
+
+## Development Status
+
+This project successfully implements the business logic for both the frontend and backend independently. 
+
+*Note: The project was structured for real-time communication between the client and server using Sockets. While the individual modules are fully functional and tested, the final socket-based integration layer is pending further implementation due to project constraints.*
+
+## How to Run
+
+To run the components locally, ensure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+
+### Run the Frontend:
+Navigate to the root directory and run:
+```bash
+flutter run

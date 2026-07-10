@@ -21,6 +21,7 @@ The repository is organized to maintain a clear separation of concerns:
 
 This project successfully implements the business logic for both the frontend and backend independently. 
 Both frontend and backend modules are implemented in a modular structure.
+> Note: Client–server real-time communication (socket integration) can be extended/improved further.
 
 
 ## How to Run
